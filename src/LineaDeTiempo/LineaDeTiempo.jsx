@@ -1,6 +1,6 @@
 import { Items } from '../Items/Item';
 import './LineaDeTiempo.css';
-import {html,css, js, android, ios, phonegap, angular, windoesPhone, xamarin, cordova, react, ionic, swift} from './Descripciones';
+import {html,css, js, android, ios, phonegap, angular, windoesPhone, xamarin, cordova, react, ionic, swift, reactNative, flutter} from './Descripciones';
 
 
 export const LineaDeTiempo = ({ mostrar = true,  setVisibility }) =>{
@@ -95,18 +95,19 @@ export const LineaDeTiempo = ({ mostrar = true,  setVisibility }) =>{
                         ano={2014} 
                         descripcion={swift}
                         fondoBlanco={true}/>
-                        {/* <Items 
-                        nombre={'____'}
-                        creador={'____'}
-                        img={'_____'} 
-                        ano={1994} 
-                        descripcion={css}/>
                         <Items 
-                        nombre={'____'}
-                        creador={'____'}
-                        img={'_____'} 
-                        ano={1994} 
-                        descripcion={css}/> */}
+                        nombre={'React Native'}
+                        creador={'Jordan Walke'}
+                        img={'https://raw.githubusercontent.com/kristerkari/react-native-svg-transformer/master/images/react-native-logo.png'} 
+                        ano={2015} 
+                        descripcion={reactNative}/>
+                        <Items 
+                        nombre={'Flutter'}
+                        creador={'Google'}
+                        img={'https://play-lh.googleusercontent.com/5e7z5YCt7fplN4qndpYzpJjYmuzM2WSrfs35KxnEw-Ku1sClHRWHoIDSw3a3YS5WpGcI'} 
+                        ano={2017} 
+                        descripcion={flutter}
+                        fondoBlanco={true}/>
                     </div>
                 </div>
             </div>
