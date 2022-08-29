@@ -46,3 +46,16 @@
     width: 0px;     /* Tamaño del scroll en vertical */
     height: 0px;    /* Tamaño del scroll en horizontal */
   }
+
+  .owner,.resgresar{
+    color: white;
+    position:absolute;
+    right:10px;
+    top: 10px;;
+  }
+  .resgresar{
+    background:transparent;
+    left:10px;
+    width:80px;
+    cursor: pointer;
+  }

@@ -110,6 +110,8 @@ export const LineaDeTiempo = ({ mostrar = true,  setVisibility }) =>{
                         fondoBlanco={true}/>
                     </div>
                 </div>
+                <span className="owner">Create by Pedro</span>
+                <button className="resgresar" onClick={() =>setVisibility(false)}>Regresar</button>
             </div>
         );
     }
